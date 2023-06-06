@@ -1,0 +1,56 @@
+/*====================================================
+                        IMPORTS
+====================================================*/
+/*====================================================
+                GLOBALE EINSTELLUNGEN
+====================================================*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    width: 1440px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+/*====================================================
+                NAVBAR
+====================================================*/
+header{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.358);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+nav p{
+    color: aquamarine;
+    font-size: 50px;
+}
+.nav_unterpunkte {
+    display: flex;
+    gap: 50px;
+}
+/*====================================================
+                Main-SIDE (body)
+====================================================*/
+.bg_img {
+    background-image: url('/assets/img/photo-1478827387698-1527781a4887.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
